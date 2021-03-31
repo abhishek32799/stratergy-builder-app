@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Sitka Reg';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sitka/sitka-regular.ttc') ;
+    }
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src:url('../fonts/segoe-ui/segoe-ui.woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src:url('../fonts/segoe-ui/segoe-ui-italic.woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src:url('../fonts/segoe-ui/segoe-ui-bold.woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/segoe-ui/segoe-ui-italic.woff') ;
+    }
+
+/*************************fonts*************************************/
+
+
+@media screen and (max-width:767px) {
+ 
+.m-btn {
+    width: 30px;
+    cursor: pointer;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.m-btn .bar {
+    width: 100%;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: #000;
+
+}
+
+.nav-wrap {
+    position: relative;
+}
+
+.nav-items .nav-row-inner {
+    flex-direction: column;
+    position:absolute;
+    background-color: #fff;
+    width: 50%;
+    left: 0px;
+    top:60px;
+    display: none;
+}
+
+.profile-name {
+    display: none;
+} 
+
+
+.nav-col-2 a .profile-icon {
+    vertical-align: middle;
+}
+
+
+}
+
+
