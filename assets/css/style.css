@@ -68,6 +68,16 @@ html,body {
     margin: 0px 20px;
 }
 
+.nav-brand a {
+   text-decoration: none;
+   color: #000;
+   font-family: 'Sitka Reg';
+   font-size: 28px;
+}
+.nav-brand a img {
+    mix-blend-mode: darken;
+}
+
 
 .nav-items ul li a {
  color: #929292;
@@ -181,7 +191,7 @@ html,body {
     padding: 70px 0px 0px 0px;
     box-shadow: 0px 3px 6px #0000004D;
     border-radius: 10px;
-    min-height: 100vh;
+    min-height: 117vh;
 
 }
 
@@ -482,6 +492,28 @@ html,body {
     margin-bottom: 7px;
 }
 
+.submit-row {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.submit-row .submit-col {
+    margin-right: 20px;
+}
+
+.submit-row .submit-col .primary-link {
+    text-decoration: none;
+    font: normal normal bold 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #00166C;
+}
+
+
+
 /************************input fields style ends here************/
 
 /******************add secutiry link*****************/
@@ -500,3 +532,21 @@ html,body {
 }
 
 /****************  add secutiry link end here********/
+
+/********************btns****************************/
+.primary-btn {
+    background: transparent linear-gradient(180deg, #00156D 0%, #4272C5 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000070;
+    border: 1px solid #707070;
+    border-radius: 11px;
+    text-align: left;
+    font: normal normal bold 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 5px 30px;
+    cursor: pointer;
+    
+}
+
+/***********************btns ends here****************/
+
